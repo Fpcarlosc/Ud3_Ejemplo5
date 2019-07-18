@@ -51,7 +51,7 @@ _actividad2.xml_:
 </android.support.constraint.ConstraintLayout>
 ```
 
-## MainActivity.java
+## _MainActivity.java_
 En el fichero _MainActivity.java_ deberemos hacer varios cambios.
 
 Primero lanzaremos el _Intent_ usando el método _startActivityForResult_ en lugar del método _startActivity_, de tal forma que además de lanzar
