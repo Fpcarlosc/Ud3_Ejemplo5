@@ -149,7 +149,7 @@ _Actividad2.java_:
 ```
 ...
         // Asignamos un Click Listener al botón para devolver los datos a la actividad principal
-        Button boton = findViewById(R.id.botonAct1);
+        Button boton = findViewById(R.id.botonAct2);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
