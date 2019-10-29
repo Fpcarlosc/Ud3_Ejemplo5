@@ -13,9 +13,9 @@ public class Actividad2 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.actividad1);
+        setContentView(R.layout.actividad2);
 
-        TextView texto = findViewById(R.id.TextViewAct1);
+        TextView texto = findViewById(R.id.TextViewAct2);
 
         // Si hay datos extra los mostramos.
         if (getIntent() != null && getIntent().hasExtra(Intent.EXTRA_TEXT)) {
@@ -23,7 +23,7 @@ public class Actividad2 extends AppCompatActivity {
         }
 
         // Asignamos un Click Listener al botón para devolver los datos a la actividad principal
-        Button boton = findViewById(R.id.botonAct1);
+        Button boton = findViewById(R.id.botonAct2);
 
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
